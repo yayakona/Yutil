@@ -2,7 +2,10 @@
 
 from typing import List, Set, Type, Any, Iterable
 
-def get_pair_iter(it: Iterable) -> (Any, Any):
+def get_pair_iter(it):
+    """
+    
+    """
     it = iter(it)
     var1 = None
     var2 = next(it)
